@@ -6,7 +6,7 @@ the class contains a method for checking all cards and possible exceptions
 public class CheckCard {
     public static void CheckAllCards(Card[] cards) {
         if (cards.length == 0) {
-            System.out.println("Unfortunately out system did not find any cards. ");
+            System.out.println("Unfortunately our system did not find any cards. ");
             return;
         }
 
@@ -22,7 +22,7 @@ public class CheckCard {
                         System.out.println("the number of identical cards is equal to " + identicalCards);
                     }
                     if (identicalCards == 0) {
-                        System.out.println(" Unfortunately out system did not find any identical cards");
+                        System.out.println(" Unfortunately our system did not find any identical cards");
                     }
                 }
             }
